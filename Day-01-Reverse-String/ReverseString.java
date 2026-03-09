@@ -1,5 +1,4 @@
 
-//package Day-01-Reverse-String;
 import java.util.Scanner;
 
 public class ReverseString {
