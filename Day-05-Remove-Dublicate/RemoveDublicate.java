@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class RemoveDublicate {
@@ -14,6 +15,7 @@ public class RemoveDublicate {
             arr[i] = sc.nextInt();
         }
 
+        Arrays.sort(arr);
         for (int i = 0; i < n; i++) {
             System.out.print(arr[i] + " ");
         }
@@ -28,7 +30,7 @@ public class RemoveDublicate {
         }
 
         System.out.println("Array after removing dublicate elements");
-        for (int j = 0; j < n; j++) {
+        for (int j = 0; j <= i; j++) {
             System.out.print(arr[j] + " ");
         }
 
