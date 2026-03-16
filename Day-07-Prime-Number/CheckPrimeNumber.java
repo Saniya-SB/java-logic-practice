@@ -7,6 +7,7 @@ public class CheckPrimeNumber {
         int num = sc.nextInt();
         int count = 0;
 
+        // Checking divisibility upto number but it will make program slow
         for (int i = 1; i <= num; i++) {
             if (num % i == 0) {
                 count++;
